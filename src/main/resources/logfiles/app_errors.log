@@ -1,0 +1,2 @@
+2026-03-06 10:05:15 ERROR [IOThread] org.example.App - java.io.FileNotFoundException: ./PaymentReciept.png (Access denied)
+2026-03-06 10:10:01 ERROR [MainThread] org.example.App - Critical: Unexpected EOF reached while reading image.

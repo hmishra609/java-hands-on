@@ -1,0 +1,10 @@
+2026-03-06 10:00:01 INFO  [MainThread] org.example.App - Application started successfully.
+2026-03-06 10:00:05 DEBUG [MainThread] org.example.App - Initializing PKCE Code Verifier generation.
+2026-03-06 10:00:07 DEBUG [MainThread] org.example.App - Code Challenge created: 5tR8x...
+2026-03-06 10:05:12 WARN  [NetworkThread] org.example.Net - Connection latency high (450ms).
+2026-03-06 10:05:15 ERROR [IOThread] org.example.App - java.io.FileNotFoundException: ./PaymentReciept.png (Access denied)
+2026-03-06 10:05:20 INFO  [MainThread] org.example.App - Retrying file stream operation...
+2026-03-06 10:05:22 DEBUG [IOThread] org.example.App - Byte-by-byte read initiated for output stream.
+2026-03-06 10:10:01 ERROR [MainThread] org.example.App - Critical: Unexpected EOF reached while reading image.
+2026-03-06 10:10:05 WARN  [MainThread] org.example.App - Closing stream with partial data.
+2026-03-06 10:10:06 INFO  [MainThread] org.example.App - Application shutting down.
