@@ -30,6 +30,9 @@ public class MapDemo {
             System.out.println("TreeMap (Natural Sorted Order): " + treeMap);
             java.util.Map <String,Integer> kvMap =treeMap.descendingMap();
 
+        System.out.println("First entry in TreeMap: " + treeMap.firstEntry().getKey());
+
+
         System.out.println("TreeMap (Descending Order) printing using forEach): ");
             kvMap.forEach((k,v)->{
                 System.out.println("Key: " + k + ", Value: " + v);
